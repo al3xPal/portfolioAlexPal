@@ -1,0 +1,290 @@
+*{margin: 0;padding: 0;}
+body{
+  font-family: sans-serif;
+  background-color: #000000;
+  -webkit-font-smoothing: antialiased;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar{
+  background: linear-gradient(to right, #000005,#242947);
+  padding: 0 !important;
+}
+
+.navbar-brand img{
+  height: 4rem;
+  padding-left: 3rem;
+}
+
+.navbar-nav{
+  margin-right: 3rem;
+}
+
+.navbar-nav li{
+  padding: 0 1rem;
+}
+
+.navbar-nav li{
+  padding: 0 1rem;
+}
+
+.navbar-nav .nav-item .nav-link{
+  color: #fff !important; 
+  font-weight: 600; 
+  float: right; 
+  text-align: left;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: #9693e7!important;
+}
+
+.fa-bars{
+  color: #fff !important; 
+  font-size: 25px !important;
+}
+
+.navbar-toggler{
+  outline: none !important;
+}
+
+
+
+.banner{
+  background: linear-gradient(to right, #000005,#242947);
+  color: #fff; 
+  padding-top: 5%;
+}
+
+.promo-title{
+  font-size: 3rem; 
+  font-weight: 600; 
+  margin-top: 3em;
+}
+
+.join-title{
+  font-size: 1.44rem;
+}
+
+.link-play{
+  text-decoration: none;
+}
+
+.link-play:hover{
+  color: #9693e7;
+  text-decoration: none!important;
+}
+
+.play-btn{
+  width: 45px;
+  margin: 20px 0;
+  margin-right: 2em;
+  text-decoration: none !important;
+  transition: transform 1.2s;
+}
+
+.play-btn:hover{
+  color: #9693e7;
+  text-decoration: none!important;
+  transform: scale(1.2);
+}
+
+.banner a{
+  color: #fff; 
+  text-decoration: none!important;
+}
+
+.img-fluid{
+  margin-top: 4rem; 
+  color: #9693e7;
+}
+
+
+.bottom-img{
+  width: 100%;
+}
+
+.logo{
+  padding-top: 0.5rem;
+}
+
+#services{
+  padding: 50px 0;
+}
+
+.service-img{
+  width: 130px; 
+  margin-top: 1rem;
+  height: 100px;
+}
+
+.services{
+  padding: 20px; 
+  background-color: #242947; 
+}
+
+.services h4{
+  padding: 1em; 
+  margin-top: 5px; 
+  text-transform: uppercase; 
+  color: white;
+}
+
+.services p{
+  color: white;
+}
+
+#services .btn-primary{
+  margin-top: 10px;
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none; border-radius: 20px;
+  background: linear-gradient(to right, #242947,#9693e7);
+  transition: transform 1.2s;
+}
+
+#services .btn-primary:hover{
+  transform: scale(1.2);
+}
+
+#contact-us{background: linear-gradient(to right, #545bae, #9b92fb); 
+  padding-bottom: 3rem; 
+  padding-top: 3rem;
+}
+
+.contact-us-title-h3{
+  color: white; 
+  text-align: center;
+}
+
+.contact-us-title{
+  font-size: 1.6em; 
+  margin-top: 8%; 
+  font-weight: 600; 
+  color: white;
+}
+  
+#map{
+  margin-top: 5%
+}
+
+.address{
+  font-size: 1.1rem; 
+  color: rgb(255, 255, 255);
+}
+
+
+#testimonials{
+  margin: 100px 0;
+}
+
+.testimonials{
+  margin: 10px 10px 0 0; 
+  background-color: rgb(255, 255, 255); 
+  border-radius: 10px;
+}
+
+#testimonial-txt{
+  padding-bottom: 15px;}
+
+.testimonials img{
+  height: 60px;
+  width: 60px;
+  border-radius: 50%; 
+  margin: 0 10px; 
+  object-fit: cover;
+}
+
+
+.user-details{
+  display: inline-block; 
+  font-size: 12px;
+}
+
+
+#footer{
+  background: linear-gradient(to right, #000005,#242947); 
+  color: #fff;
+}
+
+.footer-img{
+  width: 100%;
+}
+
+.footer-box{
+  padding: 20px;
+}
+
+.footer-box img{
+  width: 5rem; 
+  margin-bottom: 20px;
+}
+
+.footer-box .fa{
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 2px;
+  display: inline-block;
+}
+
+.footer-box .form-control{
+  box-shadow: none !important; 
+  border: none;
+  border-radius: 0; 
+  margin: 20px 0;
+}
+
+.footer-box .btn-primary{
+  box-shadow: none !important;
+  width: 8rem;
+  border: none; 
+  border-radius: 50px;
+  background: linear-gradient(to right,#242947,#9693e7);
+  color: #fff;
+  transition: transform 1.2s;
+}
+
+.footer-box .btn-primary:hover{
+  transform: scale(1.2); 
+  color: #fff;
+}
+
+#social p{
+  font-weight: 600; 
+  font-size: 16px; 
+  margin-top: 20px;
+}
+
+#social .social-icons .svg-icons img{
+  width: 23px;
+  transition: transform .7s;
+  margin-right: 1rem;
+}
+
+#social .social-icons .svg-icons img:hover{
+  transform: scale(1.2);
+}
+
+.copyright{
+  padding-top: 2%; 
+  font-size: 15px;
+}
+
+.copyright a{
+  text-decoration: none;
+  color: #fff;
+}
+.copyright a:hover{
+  text-decoration: none;
+  color: #9693e7;
+}
+
