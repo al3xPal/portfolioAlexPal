@@ -1,0 +1,66 @@
+html{
+    background-color: rgb(60, 60, 60);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(6, 71, 168);
+    width: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    color: antiquewhite;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#new-task{
+    text-align: center;
+    border-radius: 8px;
+    margin-right: 1px;
+}
+
+#new-task-btn, #clear-btn{
+  border-radius: 12px;
+  border-width: 0;
+  color: #fefefe;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  margin-right: 1px;
+  padding: 10px 12px;
+  text-align: center;
+  transition: all 200ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  background-color: rgb(139, 149, 158);
+}
+
+p{
+    padding: 10px;
+    color: rgb(232, 228, 228);
+    margin-left: 20px;
+    font-size: 22px;
+}
+

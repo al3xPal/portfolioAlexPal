@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@300;400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+.navbar{
+    height: 6rem;
+    z-index: 3 !important;
+}
+
+.nav-link{
+    padding-right: 80px;
+    margin: 10px;
+    font-size: 20px;
+    color: whitesmoke !important;
+}
+
+.nav-link:hover{
+    color: black !important;
+}
+
+.logo{
+    width: 5rem;
+    height: 5rem;
+    background-color: #009655;
+    padding: 0;
+    margin: 0;
+}
+
+.custom-navbar{
+    background-color: #009655;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.btn{
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+    border-color: white;
+}
+
+.btn:active{
+    background-color: rgb(234, 234, 234) !important;
+    color: black !important;
+    border-color: rgb(234, 234, 234) !important;
+}
+
+#home-container{
+    width: 100%;
+    max-width: 100%;
+    height: 680px;
+    background-image: url(https://sirenuse.it/media/i5thjfkg/le-sirenuse_la-sponda-restaurant_0748.jpg?anchor=center&mode=crop&rnd=132587396061330000);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat; 
+
+}
+
+.home-title{
+    color: #1a1a1a;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.home-txt{
+    color: #1a1a1a;
+    font-size: 1.5rem;
+    max-width: 100%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-title span{
+    color: #009655;
+}
+
+.text-center{
+    background-color: #d5dfd8;
+    opacity: 0.8;
+}
+
+.card{
+    background-color: #009655;
+    border-radius: 30px;
+}
+
+.card-title, .card-text{
+    color: white;
+}
+
+.card:hover {
+    background-color: #ffffff; 
+}
+
+.card:hover .card-title,
+.card:hover .card-text,
+.card:hover .icon {
+    color: #009655; 
+}
+
+.card:hover .icon {
+   filter: brightness(0) saturate(100%) invert(51%) sepia(71%) saturate(7059%) hue-rotate(142deg) brightness(94%) contrast(101%);
+}
+
+#img-restaurant{
+    margin-top: 33%;
+}
+
+#info-txt{
+    color: #009655;
+}
+
+#number-section{
+    color: #009655 !important;
+}
+
+#info-txt .border-start {
+    border-color: #009655 !important; 
+}
+
+#info-txt-2{
+    color: #009655;
+}
+
+#number-section-2{
+    color: #009655 !important;
+}
+
+#info-txt-2 .border-start {
+    border-color: #009655 !important; 
+}
+
+#restaurant-btn{
+    width: 150px;
+    margin-left: 30%;
+}
+
+#restaurant-btn:active{
+    background-color: rgb(234, 234, 234) !important;
+    color: black;
+    border-color: rgb(234, 234, 234);
+}
+
+#carouselExampleCaptions{
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.carousel-title{
+    background-color: whitesmoke;
+}
+
+.carousel-caption{
+    background-color: #586d5e;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+#carouselExampleCaptions .carousel-inner img {
+    height: 500px; /* Imposta l'altezza desiderata per le immagini */
+    object-fit: cover; /* Mantiene le proporzioni e copre completamente la dimensione specificata */
+}
+
+#book{
+    background-color: #586d5e !important;
+}
+
+#book-img{
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important; 
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img {
+    position: relative;
+    height: 100%; 
+}
+
+
+.team-item{
+    background-color: #d6d6d6;
+}
+
+.chef-name{
+    color: black;
+}
+
+.chef-section{
+    opacity: 1;
+}
+
+.social-btn{
+    background-color: black;
+    border-color: black;
+}
+
+.social-btn:hover{
+    background-color: #ffffff;
+    color: rgb(31, 31, 31);
+}
+
+.chef-title{
+    background-color: whitesmoke;
+}
+
+.chef-title h5{
+    background-color: whitesmoke;
+    color: #009655 !important;
+}
+
+.chef-card{
+    background-color: #d5dfd8;
+}
+
+.img-chef img{
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.social-icon{
+    margin-bottom: 10px;
+}
+
+.footer{
+    width: 100% !important;
+    background-color: #009655;
+    margin: 0 !important;
+}
+
+#footer{
+    width: 100%;
+}
+
+.footer-links{
+    color: white;
+    text-decoration: none;
+}
+
+.footer-links:hover{
+    color: black;
+}
+
+.list{
+    list-style: none;
+    padding: 0;
+}
+
+.contacts{
+    color: whitesmoke;
+}
+
+.contacts-txt{
+    color: whitesmoke;
+}
+
+.social-footer{
+    background-color: #3B4A3F !important;
+}
+
+.list-contact{
+    padding: 0;
+    list-style: none;
+    color: whitesmoke !important;
+}
+
+.list-contact a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.list-contact a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.btn-social-network{
+    background-color: black;
+    margin-right: 5px;
+    width: 2.5rem;
+    height: 2.5rem;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.btn-social-networ:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.d-flex a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+
+#your-email{
+    border-color: #009655 !important;
+}
+
+
+
+@media (max-width: 992px) {
+    .nav-link {
+        padding-right: 10px;
+        font-size: 14px;
+    }
+
+    .home-title {
+        font-size: 2rem;
+    }
+
+    .home-txt {
+        font-size: 0.8rem;
+    }
+
+    .custom-card {
+        height: 12rem;
+    }
+
+    .icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
